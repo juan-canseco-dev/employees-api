@@ -13,8 +13,9 @@ import java.util.List;
 
 @Validated
 @AllArgsConstructor
-@RequestMapping("employees")
 @RestControllerAdvice
+@RequestMapping("employees")
+@RestController
 public class EmployeesController {
 
     private final EmployeeService service;
